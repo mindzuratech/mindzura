@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Classes - Mindzura</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="rounded-3 me-1 " style="height: 50px;" src="assets/Images/pic.png" alt="Mindzura Logo" height="40" class="d-inline-block align-top me-3">
+                Mindzura Tech
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="classes.html">Online Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="support.html">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header py-5 bg-primary text-white">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">Online Classes</h1>
+            <p class="lead mb-0">Learn from industry experts at your convenience</p>
+        </div>
+    </header>
+
+    <!-- Courses Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Our Course Categories</h2>
+                <p class="lead text-muted">Choose from our wide range of professional courses</p>
+            </div>
+            
+            <ul class="nav nav-tabs justify-content-center mb-5" id="courseTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="web-tab" data-bs-toggle="tab" data-bs-target="#web" type="button" role="tab">Web Development</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="mobile-tab" data-bs-toggle="tab" data-bs-target="#mobile" type="button" role="tab">Mobile Development</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="ai-tab" data-bs-toggle="tab" data-bs-target="#ai" type="button" role="tab">AI & ML</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="data-tab" data-bs-toggle="tab" data-bs-target="#data" type="button" role="tab">Data Science</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="cloud-tab" data-bs-toggle="tab" data-bs-target="#cloud" type="button" role="tab">Cloud Computing</button>
+                </li>
+            </ul>
+            
+            <div class="tab-content" id="courseTabsContent">
+                <!-- Web Development Tab -->
+                <div class="tab-pane fade show active" id="web" role="tabpanel">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0 shadow-sm course-card">
+                                <img src="assets/images/courses/web-dev.jpg" class="card-img-top" alt="Full Stack Web Development">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="badge bg-primary">Bestseller</span>
+                                        <span class="text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <span class="text-muted ms-1">4.7</span>
+                                        </span>
+                                    </div>
+                                    <h3 class="h5">Full Stack Web Development</h3>
+                                    <p class="text-muted mb-3">Master HTML, CSS, JavaScript, React, Node.js, and MongoDB to build complete web applications.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <i class="far fa-clock text-muted me-1"></i>
+                                            <small class="text-muted">12 Weeks</small>
+                                        </div>
+                                        <div class="fw-bold text-primary">$499</div>
+                                    </div>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="enroll.html" class="btn btn-primary w-100">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0 shadow-sm course-card">
+                                <img src="assets/images/courses/frontend.jpg" class="card-img-top" alt="Frontend Development">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="badge bg-success">Popular</span>
+                                        <span class="text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="text-muted ms-1">4.9</span>
+                                        </span>
+                                    </div>
+                                    <h3 class="h5">Frontend Development with React</h3>
+                                    <p class="text-muted mb-3">Learn modern frontend development using React, Redux, and modern JavaScript (ES6+).</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <i class="far fa-clock text-muted me-1"></i>
+                                            <small class="text-muted">8 Weeks</small>
+                                        </div>
+                                        <div class="fw-bold text-primary">$349</div>
+                                    </div>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="enroll.html" class="btn btn-primary w-100">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0 shadow-sm course-card">
+                                <img src="assets/images/courses/backend.jpg" class="card-img-top" alt="Backend Development">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="badge bg-info">New</span>
+                                        <span class="text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <span class="text-muted ms-1">4.3</span>
+                                        </span>
+                                    </div>
+                                    <h3 class="h5">Backend Development with Node.js</h3>
+                                    <p class="text-muted mb-3">Build robust backend systems using Node.js, Express, and MongoDB.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <i class="far fa-clock text-muted me-1"></i>
+                                            <small class="text-muted">8 Weeks</small>
+                                        </div>
+                                        <div class="fw-bold text-primary">$349</div>
+                                    </div>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="enroll.html" class="btn btn-primary w-100">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mobile Development Tab -->
+                <div class="tab-pane fade" id="mobile" role="tabpanel">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0 shadow-sm course-card">
+                                <img src="assets/images/courses/flutter.jpg" class="card-img-top" alt="Flutter Development">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="badge bg-primary">Bestseller</span>
+                                        <span class="text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <span class="text-muted ms-1">4.6</span>
+                                        </span>
+                                    </div>
+                                    <h3 class="h5">Cross-Platform Mobile Development with Flutter</h3>
+                                    <p class="text-muted mb-3">Learn Flutter framework to build iOS and Android apps with a single codebase.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <i class="far fa-clock text-muted me-1"></i>
+                                            <small class="text-muted">10 Weeks</small>
+                                        </div>
+                                        <div class="fw-bold text-primary">$449</div>
+                                    </div>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="enroll.html" class="btn btn-primary w-100">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0 shadow-sm course-card">
+                                <img src="assets/images/courses/react-native.jpg" class="card-img-top" alt="React Native Development">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="badge bg-success">Popular</span>
+                                        <span class="text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span class="text-muted ms-1">4.8</span>
+                                        </span>
+                                    </div>
+                                    <h3 class="h5">React Native Mobile Development</h3>
+                                    <p class="text-muted mb-3">Build native mobile apps for iOS and Android using React Native.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <i class="far fa-clock text-muted me-1"></i>
+                                            <small class="text-muted">10 Weeks</small>
+                                        </div>
+                                        <div class="fw-bold text-primary">$449</div>
+                                    </div>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="enroll.html" class="btn btn-primary w-100">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- AI & ML Tab -->
+                <div class="tab-pane fade" id="ai" role="tabpanel">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0 shadow-sm course-card">
+                                <img src="assets/images/courses/ai-ml.jpg" class="card-img-top" alt="AI & ML">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="badge bg-primary">Bestseller</span>
+                                        <span class="text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <span class="text-muted ms-1">4.7</span>
+                                        </span>
+                                    </div>
+                                    <h3 class="h5">Artificial Intelligence & Machine Learning</h3>
+                                    <p class="text-muted mb-3">Dive into Python, TensorFlow, and neural networks to build intelligent systems.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <i class="far fa-clock text-muted me-1"></i>
+                                            <small class="text-muted">16 Weeks</small>
+                                        </div>
+                                        <div class="fw-bold text-primary">$799</div>
+                                    </div>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="enroll.html" class="btn btn-primary w-100">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0 shadow-sm course-card">
+                                <img src="assets/images/courses/deep-learning.jpg" class="card-img-top" alt="Deep Learning">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="badge bg-info">Advanced</span>
+                                        <span class="text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <span class="text-muted ms-1">4.5</span>
+                                        </span>
+                                    </div>
+                                    <h3 class="h5">Deep Learning Specialization</h3>
+                                    <p class="text-muted mb-3">Advanced course covering deep learning architectures and applications.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <i class="far fa-clock text-muted me-1"></i>
+                                            <small class="text-muted">12 Weeks</small>
+                                        </div>
+                                        <div class="fw-bold text-primary">$699</div>
+                                    </div>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="enroll.html" class="btn btn-primary w-100">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Data Science Tab -->
+                <div class="tab-pane fade" id="data" role="tabpanel">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0 shadow-sm course-card">
+                                <img src="assets/images/courses/data-science.jpg" class="card-img-top" alt="Data Science">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="badge bg-primary">Bestseller</span>
+                                        <span class="text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <span class="text-muted ms-1">4.6</span>
+                                        </span>
+                                    </div>
+                                    <h3 class="h5">Data Science & Analytics</h3>
+                                    <p class="text-muted mb-3">Learn Python, Pandas, NumPy, and data visualization to extract insights from data.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <i class="far fa-clock text-muted me-1"></i>
+                                            <small class="text-muted">14 Weeks</small>
+                                        </div>
+                                        <div class="fw-bold text-primary">$649</div>
+                                    </div>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="enroll.html" class="btn btn-primary w-100">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0 shadow-sm course-card">
+                                <img src="assets/images/courses/big-data.jpg" class="card-img-top" alt="Big Data">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="badge bg-info">Advanced</span>
+                                        <span class="text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <span class="text-muted ms-1">4.4</span>
+                                        </span>
+                                    </div>
+                                    <h3 class="h5">Big Data with Hadoop and Spark</h3>
+                                    <p class="text-muted mb-3">Process and analyze large datasets using Hadoop and Spark ecosystems.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <i class="far fa-clock text-muted me-1"></i>
+                                            <small class="text-muted">12 Weeks</small>
+                                        </div>
+                                        <div class="fw-bold text-primary">$599</div>
+                                    </div>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="enroll.html" class="btn btn-primary w-100">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cloud Computing Tab -->
+                <div class="tab-pane fade" id="cloud" role="tabpanel">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card h-100 border-0 shadow-sm course-card">
+                                <img src="assets/images/courses/aws.jpg" class="card-img-top" alt="AWS Cloud">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="badge bg-primary">Bestseller</span>
+                                        <span class="text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <span class="text-muted ms-1">4.7</span>
+                                        </span>
+                                    </div>
+                                    <h3 class="h5">Cloud Computing with AWS</h3>
+                                    <p class="text-muted mb-3">Master Amazon Web Services and cloud architecture fundamentals.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <i class="far fa-clock text-muted me-1"></i>
+                                            <small class="text-muted">12 Weeks</small>
+                                        </div>
+                                        <div class="fw-bold text-primary">$599</div>
+                                    </div>
+                                </div>
+                                <div class="card-footer bg-transparent border-top-0">
+                                    <a href="enroll.html" class="btn btn-primary w-100">Enroll Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Features -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Our Learning Features</h2>
+                <p class="lead text-muted">What makes our online classes special</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box bg-primary-light mb-4 mx-auto">
+                                <i class="fas fa-chalkboard-teacher text-primary fs-3"></i>
+                            </div>
+                            <h5 class="card-title">Live Instructor-led Classes</h5>
+                            <p class="card-text text-muted">Interactive sessions with industry experts in real-time with Q&A opportunities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box bg-primary-light mb-4 mx-auto">
+                                <i class="fas fa-laptop-code text-primary fs-3"></i>
+                            </div>
+                            <h5 class="card-title">Hands-on Projects</h5>
+                            <p class="card-text text-muted">Work on real-world projects to build your portfolio and gain practical experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box bg-primary-light mb-4 mx-auto">
+                                <i class="fas fa-user-graduate text-primary fs-3"></i>
+                            </div>
+                            <h5 class="card-title">Career Support</h5>
+                            <p class="card-text text-muted">Resume reviews, interview preparation, and job placement assistance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container text-center">
+            <h2 class="display-5 fw-bold mb-4">Ready to Start Learning?</h2>
+            <p class="lead mb-5">Join thousands of students who have transformed their careers with Mindzura</p>
+            <a href="enroll.html" class="btn btn-light btn-lg px-4">Enroll Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3">Mindzura</h5>
+                    <p>Innovative software solutions and professional education to power your digital transformation.</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white text-decoration-none">Services</a></li>
+                        <li class="mb-2"><a href="classes.html" class="text-white text-decoration-none">Online Classes</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-white text-decoration-none">About Us</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3">Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Multan.Pakistan</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2"></i> +92 3367757193</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> mindzuratech@gmail.com</li>
+                        <li class="mb-2"><i class="fab fa-whatsapp me-2"></i> +92 3367757193</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3">Newsletter</h5>
+                    <p>Subscribe to our newsletter for the latest updates.</p>
+                    <form class="mt-3">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2023 Mindzura. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white text-decoration-none me-3">Privacy Policy</a>
+                    <a href="#" class="text-white text-decoration-none me-3">Terms of Service</a>
+                    <a href="#" class="text-white text-decoration-none">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="btn btn-primary btn-lg back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

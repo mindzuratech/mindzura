@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Mindzura</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="rounded-3 me-1 " style="height: 50px;" src="assets/Images/pic.png" alt="Mindzura Logo" height="40" class="d-inline-block align-top me-3">
+                Mindzura Tech
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="classes.html">Online Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="support.html">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Page Header -->
+    <header class="page-header py-5 bg-primary text-white">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">24/7 Support Services</h1>
+            <p class="lead mb-0">We're here to help with all your software issues</p>
+        </div>
+    </header>
+
+    <!-- Support Options -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="icon-box bg-primary-light mb-4 mx-auto">
+                                <i class="fab fa-whatsapp text-primary fs-3"></i>
+                            </div>
+                            <h3 class="h4 mb-3">WhatsApp Support</h3>
+                            <p class="text-muted mb-4">Instant messaging support for quick resolution of your technical issues.</p>
+                            <a href="https://wa.me/+923392749926" class="btn btn-primary w-100">
+                                <i class="fab fa-whatsapp me-2"></i> Chat Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="icon-box bg-primary-light mb-4 mx-auto">
+                                <i class="fas fa-phone-alt text-primary fs-3"></i>
+                            </div>
+                            <h3 class="h4 mb-3">Phone Support</h3>
+                            <p class="text-muted mb-4">Direct line to our technical support team for urgent matters.</p>
+                            <a href="tel:+1234567890" class="btn btn-primary w-100">
+                                <i class="fas fa-phone me-2"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="icon-box bg-primary-light mb-4 mx-auto">
+                                <i class="fas fa-ticket-alt text-primary fs-3"></i>
+                            </div>
+                            <h3 class="h4 mb-3">Ticket System</h3>
+                            <p class="text-muted mb-4">Submit detailed tickets for complex issues that need thorough investigation.</p>
+                            <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#supportTicketModal">
+                                <i class="fas fa-plus me-2"></i> Create Ticket
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Frequently Asked Questions</h2>
+                <p class="lead text-muted">Find answers to common questions</p>
+            </div>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item border-0 shadow-sm mb-3">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                            What are your support hours?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We provide 24/7 support for all critical issues. Our standard support hours are from 9 AM to 9 PM (IST) for non-critical issues, but our team is available round the clock for emergencies.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0 shadow-sm mb-3">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                            How quickly can I expect a response?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Response times vary based on priority:
+                            <ul class="mt-2">
+                                <li><strong>Critical</strong> (system down): Immediate response, 24/7</li>
+                                <li><strong>High</strong> (major impact): Within 1 hour during business hours</li>
+                                <li><strong>Medium</strong>: Within 4 business hours</li>
+                                <li><strong>Low</strong>: Within 24 business hours</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0 shadow-sm mb-3">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                            What information should I provide when seeking support?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            To help us resolve your issue quickly, please provide:
+                            <ul class="mt-2">
+                                <li>A clear description of the problem</li>
+                                <li>Steps to reproduce the issue</li>
+                                <li>Screenshots or error messages</li>
+                                <li>Your software version and environment details</li>
+                                <li>Any recent changes to your system</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0 shadow-sm mb-3">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                            Do you provide support for custom-developed software?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, we provide comprehensive support for all software we develop. Support for custom software is typically covered under your maintenance agreement. If you need support for software not developed by us, we offer consulting services to help troubleshoot and resolve issues.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item border-0 shadow-sm">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                            How can I check the status of my support ticket?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            You can check your ticket status by logging into our <a href="#">customer portal</a> or by replying to the confirmation email you received when you created the ticket. You'll also receive email updates as your ticket progresses through our support system.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Resources -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Support Resources</h2>
+                <p class="lead text-muted">Helpful resources for common issues</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box bg-primary-light mb-4 mx-auto">
+                                <i class="fas fa-book text-primary fs-3"></i>
+                            </div>
+                            <h5 class="card-title">Documentation</h5>
+                            <p class="card-text text-muted">Comprehensive guides and manuals for all our products and services.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">View Docs</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box bg-primary-light mb-4 mx-auto">
+                                <i class="fas fa-video text-primary fs-3"></i>
+                            </div>
+                            <h5 class="card-title">Video Tutorials</h5>
+                            <p class="card-text text-muted">Step-by-step video guides for common tasks and troubleshooting.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Watch Videos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box bg-primary-light mb-4 mx-auto">
+                                <i class="fas fa-question-circle text-primary fs-3"></i>
+                            </div>
+                            <h5 class="card-title">Knowledge Base</h5>
+                            <p class="card-text text-muted">Searchable database of solutions to common problems.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Search KB</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box bg-primary-light mb-4 mx-auto">
+                                <i class="fas fa-users text-primary fs-3"></i>
+                            </div>
+                            <h5 class="card-title">Community Forum</h5>
+                            <p class="card-text text-muted">Connect with other users and find peer-to-peer support.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary ms3">Join Forum</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container text-center">
+            <h2 class="display-5 fw-bold mb-4">Still Need Help?</h2>
+            <p class="lead mb-5">Our support team is ready to assist you with any technical issues.</p>
+            <a href="contact.html" class="btn btn-light btn-lg px-4">Contact Support</a>
+        </div>
+    </section>
+
+    <!-- Support Ticket Modal -->
+    <div class="modal fade" id="supportTicketModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Create Support Ticket</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="supportTicketForm">
+                        <div class="mb-3">
+                            <label for="ticketSubject" class="form-label">Subject <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="ticketSubject" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="ticketDescription" class="form-label">Description <span class="text-danger">*</span></label>
+                            <textarea class="form-control" id="ticketDescription" rows="5" required></textarea>
+                            <div class="form-text">Please provide detailed information about your issue, including steps to reproduce.</div>
+                        </div>
+                        <div class="row g-3 mb-3">
+                            <div class="col-md-6">
+                                <label for="ticketPriority" class="form-label">Priority <span class="text-danger">*</span></label>
+                                <select class="form-select" id="ticketPriority" required>
+                                    <option value="" selected disabled>Select Priority</option>
+                                    <option value="critical">Critical (System Down)</option>
+                                    <option value="high">High (Major Impact)</option>
+                                    <option value="medium">Medium (Minor Impact)</option>
+                                    <option value="low">Low (General Question)</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="ticketCategory" class="form-label">Category <span class="text-danger">*</span></label>
+                                <select class="form-select" id="ticketCategory" required>
+                                    <option value="" selected disabled>Select Category</option>
+                                    <option value="software">Software Issue</option>
+                                    <option value="hardware">Hardware Issue</option>
+                                    <option value="account">Account/Billing</option>
+                                    <option value="course">Course Related</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="ticketAttachments" class="form-label">Attachments</label>
+                            <input class="form-control" type="file" id="ticketAttachments" multiple>
+                            <div class="form-text">Upload screenshots, error logs, or other relevant files (Max 10MB).</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="ticketContact" class="form-label">Contact Email <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="ticketContact" required>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" form="supportTicketForm" class="btn btn-primary">Submit Ticket</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3">Mindzura</h5>
+                    <p>Innovative software solutions and professional education to power your digital transformation.</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white text-decoration-none">Services</a></li>
+                        <li class="mb-2"><a href="classes.html" class="text-white text-decoration-none">Online Classes</a></li>
+                        <li class="mb-2"><a href="support.html" class="text-white text-decoration-none">Support</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3">Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Multan.Pakistan</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2"></i> +92 3367757193</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> mindzuratech@gmail.com</li>
+                        <li class="mb-2"><i class="fab fa-whatsapp me-2"></i> +92 3367757193</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3">Newsletter</h5>
+                    <p>Subscribe to our newsletter for the latest updates.</p>
+                    <form class="mt-3">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2023 Mindzura. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white text-decoration-none me-3">Privacy Policy</a>
+                    <a href="#" class="text-white text-decoration-none me-3">Terms of Service</a>
+                    <a href="#" class="text-white text-decoration-none">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="btn btn-primary btn-lg back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
